@@ -1,33 +1,47 @@
-# Burgerblik: The Open Data Archive
+# Fractiepedia
 
-Welcome to Burgerblik, the public data archive of the @Burgerfractie project, a civic tech initiative from the Netherlands. Our mission is to foster radical transparency in the Dutch parliament by making debates accessible and searchable.
+**The open data archive of Dutch parliamentary debates.**
 
----
+Fractiepedia is the public data archive of the **Burgerfractie** project — a civic tech initiative from the Netherlands. Its mission is to foster radical transparency in the Dutch parliament by making debates accessible and searchable.
 
-### **Access the Archive**
+🌐 Website: [fractiepedia.nl](https://fractiepedia.nl)
 
-You are currently viewing the homepage of the archive. The complete archive of all transcripts can be browsed directly in our GitHub repository.
+## Browsing the archive
 
-**[-> Browse the Full Archive Here](https://github.com/burgerfractie/burgerblik)**
+The complete archive of debate transcripts can be browsed directly in the folders of this repository.
 
----
+## Data structure
 
-### Data Source
+The archive is organized chronologically:
 
-All transcripts are generated from the official video streams provided by **Debat Direct** (tweedekamer.nl).
+```
+/YYYY/MM_MonthName/
+```
 
-### Data Structure
+Each transcript file follows this naming convention:
 
-The archive is organized chronologically. The structure is: `/YYYY/MM_MonthName/`. 
+```
+YYYY-MM-DD_START-END_DEBATE-TYPE_TOPIC_SUBTOPIC_CHAMBER.txt
+```
 
-File names follow the convention: `YYYY-MM-DD_START-END_DEBATE-TYPE_TOPIC_SUBTOPIC_CHAMBER.txt`
+Every file is a clean, readable transcript of a single debate.
 
-Each file is a clean, readable transcript generated from the debate video.
+## Data source
 
-### Disclaimer
+All transcripts are based on the official video streams published by [Debat Direct](https://debatdirect.tweedekamer.nl/), the debate platform of the Dutch House of Representatives.
 
-Please note: these transcripts are AI-generated and may contain errors. They serve as a searchable archive. For direct quotes, always verify with the original video source on Debat Direct.
+Transcripts are produced through an automated processing pipeline that downloads, transcribes, and cleans the debate recordings.
 
-### License
+## Disclaimer
 
-This work is made available under the [MIT License](LICENSE). When using this data, we kindly request attribution to Burgerfractie (@Burgerfractie on X).
+These transcripts are **AI-generated and may contain errors**. They are intended as a searchable reference archive, not an authoritative record. For direct quotes, always verify against the original video on Debat Direct.
+
+## Contributing
+
+This is an open project and contributions are welcome. Found an error or have a suggestion? [Open an issue](https://github.com/burgerfractie/fractiepedia/issues).
+
+## License
+
+Released under the [MIT License](https://github.com/burgerfractie/fractiepedia/blob/main/LICENSE).
+
+When using this data, please attribute **Burgerfractie** [](https://x.com/Burgerfractie).
