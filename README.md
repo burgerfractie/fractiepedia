@@ -44,4 +44,9 @@ This is an open project and contributions are welcome. Found an error or have a 
 
 Released under the [MIT License](https://github.com/burgerfractie/fractiepedia/blob/main/LICENSE).
 
-When using this data, please attribute **Burgerfractie** [](https://x.com/Burgerfractie).
+## Attribution
+
+When using this data, please attribute **Burgerfractie**, the civic tech initiative behind Fractiepedia.
+
+- 🌐 [burgerfractie.nl](https://burgerfractie.nl)
+- X: [@Burgerfractie](https://x.com/Burgerfractie)
